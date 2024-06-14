@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "post-bio.gl.joinmc.link",
+          "assigned_srv": "post-bio.gl.joinmc.link",
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "83c49fe0-3838-4bca-9b96-c7f6e78be900",
+          "ip_hostname": "20.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 23193,
+          "port_start": 23192,
+          "region": "global",
+          "static_ip4": "147.185.221.20",
+          "tunnel_ip": "2602:fbaf:0:1::14"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-14T06:38:59.658729Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "a30437ee-a342-4e53-8e41-26ea22438897",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "4922b94a-96d0-4459-83bd-59ec75278b50",
+          "agent_name": "CHICHITOLAND",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
